@@ -16,7 +16,7 @@ int main() {
         }
 
         std::cout << "PID: " << pid << ", Input Value: " << input << std::endl;
-        std::cout << "Address of the 'input' variable: " << static_cast<void*>(&input) << std::endl; // Corrected to use address-of operator
+        std::cout << "Address of the 'input' variable: " << static_cast<void*>(&input) << std::endl; 
     }
 
     return 0;
